@@ -1,0 +1,22 @@
+//Glider
+// Required Core Stylesheet
+@import "../node_modules/@glidejs/glide/src/assets/sass/glide.core";
+// Optional Theme Stylesheet
+@import "../node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
+
+//variables
+@import 'base/mixins';
+@import 'base/variables';
+@import 'base/fonts';
+
+//components
+@import 'components/sections';
+@import 'components/navbar';
+@import 'components/sections';
+@import 'components/lines';
+@import 'components/btn';
+@import 'components/header';
+@import 'components/keyframe';
+@import 'components/icon';
+@import 'base/base';

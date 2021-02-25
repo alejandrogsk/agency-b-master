@@ -1,0 +1,10 @@
+.span-line-1,
+.span-line-2 {
+    display: block;
+    height: 4px;
+    width: 100%;
+    margin-top: 8px;
+}
+.span-line-1{ background-color: $c-white; }
+
+.span-line-2{ background-color: $c-black; }

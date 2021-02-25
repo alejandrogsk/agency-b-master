@@ -1,0 +1,60 @@
+header {
+    background-color: $c-white;
+    position: relative;
+    z-index: 200;
+    padding-bottom: 2%;
+
+    & img {
+        @include respond( phone-small ) {
+            height: 40px;
+        }
+    }
+}
+
+//Header JS
+.header-fix {
+    box-shadow: 0 0 20px rgba( 0, 0, 0, 0.1);
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+
+    transition: ease-in-out ;
+
+    & img {
+        @include respond( phone-small ) {
+            height: 20px;
+        }
+    }
+
+}
+
+//Fin Header JS
+
+span .nav-lines {
+    background-color: $c-black;
+    display: block;
+    height: 3px;
+    position: absolute;
+    transform: translateY(15px);
+    width: 100%;
+    z-index: 200;
+
+    
+    &:before,
+    &:after {
+        background-color: inherit;
+        content: '';
+        display: inline-block;
+        height: 3px;
+        width: 100%;
+    }
+
+    &:before {
+        transform: translateY(-23px);
+    }
+    &:after {
+        transform: translateY(-25px);
+    }
+}

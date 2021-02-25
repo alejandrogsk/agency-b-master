@@ -1,0 +1,32 @@
+.icon__1 {
+    background-color: transparent;
+    color: $c-black;
+    display: inline-block;
+    fill: currentColor;
+    font-size: 2.5rem;
+    height: 1em;
+    margin-bottom: 3px;
+    width: 1em;
+}
+
+.icon__2 {
+    background-color: transparent;
+    color: $c-black;
+    display: inline-block;
+    fill: currentColor;
+    font-size: 1.5rem;
+    height: .75em;
+    margin-bottom: 3px;
+    width: .75em;
+}
+
+
+.icon__3 {
+    height: 2.5rem;
+    width: auto;
+
+    @include respond( tab-port ) {
+        height: 2rem;
+    }
+}
+

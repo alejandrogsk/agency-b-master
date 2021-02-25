@@ -1,0 +1,73 @@
+.main {
+    margin-bottom: 100vh;
+    overflow-x: hidden;
+    position: relative;
+    z-index: 200;
+}
+
+.section1 {
+    background-color: $c-white;
+    padding-top: 7%;
+    padding-bottom: 10%;
+}
+
+.section2 {
+    background-color: $c-primary;
+    padding-top: 60vh;
+    padding-bottom: 10%;
+    margin-top: -50vh;
+}
+
+.section3 {
+    background-color: $c-white;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.section4 {
+    background-color: $c-secondary;
+    padding-top: 8%;
+    padding-bottom: 8%;
+
+    & img {
+        width: 100%; /* width of container */
+        height: 70vh; /* height of container */
+        object-fit: cover;
+    }
+}
+
+.section5 {
+    background-color: $c-white;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+
+footer {
+    background-color: black;
+    bottom: 0;
+    display: block;
+    min-height: auto;
+    max-height: 100vh;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    padding-top: 8%;
+    padding-bottom: 2%;
+
+    & img {
+        height: 70px;
+        width: auto;
+        position: absolute;
+        top: 15px;
+        left: 0;  
+
+        @include respond( tab-port ) {
+            height: 50px;
+        }
+        @include respond( phone ) {
+            height: 40px;
+        }
+    }
+}

@@ -1,0 +1,129 @@
+h1 {
+    font-family: $ff-1;
+    font-size: 70px;
+    font-weight: 900;
+
+    @include respond( tab-port ) {
+        font-size: 50px;
+    }
+
+    @include respond( phone ) {
+        font-size: 45px;
+    }
+
+    @include respond( phone-small ) {
+        font-size: 35px;
+    }
+}
+
+h2 {
+    font-size: 56px;
+    font-weight: 700;
+
+    @include respond( tab-port ) {
+        font-size: 48px;
+    }
+    @include respond( phone ) {
+        font-size: 40px;
+    }
+    
+}
+
+.h2__footer {
+    color: $c-white;
+    font-size: 100px;
+
+    @include respond( tab-port ) {
+        font-size: 50px;
+    }
+
+    @include respond( phone-tab ) {
+        padding-top: 30px;
+    }
+
+    @include respond( phone-small ) {
+        font-size: 30px;
+        padding-top: 45px;
+    }
+    
+}
+
+
+
+.h4 {
+    &__1,
+    &__2 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    &__1 {
+        color: $c-white;
+        text-transform: uppercase;
+    }
+    &__2 {
+        color: $c-primary;
+    }
+}
+
+.h5 {
+
+    &__1,
+    &__2 {
+        font-size: 28px;
+        font-weight: 800;
+        padding-right: 30%;
+
+        @include respond( tab-port ) {
+           font-size: 24px;
+           padding-right: 0;
+        }
+
+       
+    }
+
+    &__1{ 
+        color: $c-white; 
+        text-transform: uppercase;
+    
+        @include respond( tab-port ) {
+            font-size: 18px;
+        }
+    }
+
+    &__2 { color: $c-black; }
+}
+
+
+
+
+
+//Paragraphs
+.p__1 { 
+    //font-size: 30px; 
+    text-transform: uppercase;
+    @include respond( phone-small ) {
+        font-size: 16px;
+    }
+
+    &-a,
+    &-b {
+        font-weight: 600;
+        margin-bottom: -5px;
+        text-transform: uppercase;
+    }
+
+    &-a { color: $c-black; }
+
+    &-b { color: $c-white; }
+
+}
+
+.p__2 {
+    color: $c-white;
+}
+
+
+
+//Span
+.span__primary { color: $c-primary }

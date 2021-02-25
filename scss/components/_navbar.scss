@@ -1,0 +1,6 @@
+.navbar-nav .nav-link {
+    color: $c-black;
+    font-weight: 700;
+    
+    &:hover { color: $c-primary; }
+}
