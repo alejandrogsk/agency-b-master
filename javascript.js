@@ -1,5 +1,6 @@
 //Navbar fixed
 document.addEventListener("DOMContentLoaded", () => {
+    console.log("para ver si funciona")
     headerHideShow();
     closeMenu();
 })
