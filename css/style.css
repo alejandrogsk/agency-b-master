@@ -265,7 +265,7 @@ h2 {
 }
 @media (max-width: 30em) {
   .section1__mobileItems {
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
   }
 }
 
@@ -354,7 +354,7 @@ footer img {
 }
 @media (max-width: 30em) {
   .section1__mobileItems {
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
   }
 }
 
