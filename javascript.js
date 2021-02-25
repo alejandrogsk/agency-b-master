@@ -1,6 +1,6 @@
 //Navbar fixed
 document.addEventListener("DOMContentLoaded", () => {
-    console.log("para ver si funciona")
+    console.log("copyright sin paddin bottom")
     headerHideShow();
     closeMenu();
 })
