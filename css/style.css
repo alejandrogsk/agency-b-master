@@ -263,6 +263,11 @@ h2 {
   padding-top: 7%;
   padding-bottom: 10%;
 }
+@media (max-width: 30em) {
+  .section1__mobileItems {
+    margin-bottom: 10rem;
+  }
+}
 
 .section2 {
   background-color: #ff3600;
@@ -346,6 +351,11 @@ footer img {
   background-color: #fff;
   padding-top: 7%;
   padding-bottom: 10%;
+}
+@media (max-width: 30em) {
+  .section1__mobileItems {
+    margin-bottom: 10rem;
+  }
 }
 
 .section2 {
@@ -566,6 +576,7 @@ span .nav-lines:after {
 
 html {
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -575,7 +586,6 @@ body {
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.6;
-  scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=style.css.map */

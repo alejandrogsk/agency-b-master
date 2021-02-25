@@ -6,7 +6,10 @@
     box-sizing: border-box;
 }
 
-html { overflow-x: hidden;}
+html { 
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: white;
@@ -15,5 +18,5 @@ body {
     font-size: 1rem;
     font-weight: 300;
     line-height: 1.6;
-    scroll-behavior: smooth;
+    
 }
