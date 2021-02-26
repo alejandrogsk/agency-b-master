@@ -1,0 +1,22 @@
+{
+  "name": "agency-b-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandrogsk/agency-b-master.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandrogsk/agency-b-master/issues"
+  },
+  "homepage": "https://github.com/alejandrogsk/agency-b-master#readme",
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1"
+  }
+}

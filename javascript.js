@@ -1,8 +1,5 @@
-//Navbar fixed
 document.addEventListener("DOMContentLoaded", () => {
-    console.log("copyright sin paddin bottom")
     headerHideShow();
-    closeMenu();
 })
 
 
@@ -19,12 +16,4 @@ const headerHideShow = () => {
 
     });
 
-}
-
-const closeMenu = () => {
-    let $links = document.querySelectorAll("a.navbar-collapse")
-
-    $links.addEventListener("click", (e) => {
-        return console.log("function closeMenu", e)
-    })
 }

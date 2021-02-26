@@ -514,22 +514,6 @@ span .nav-lines:after {
   transform: translateY(-25px);
 }
 
-@keyframes animar {
-  0% {
-    transform: rotateZ(0deg);
-    left: 115%;
-  }
-  100% {
-    transform: rotateZ(720deg);
-    left: -15%;
-  }
-}
-.animated {
-  animation-name: animar;
-  animation-duration: 12s;
-  animation-iteration-count: infinite;
-}
-
 .icon__1 {
   background-color: transparent;
   color: #000;
