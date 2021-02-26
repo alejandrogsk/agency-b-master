@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     headerHideShow();
-    console.log(screen.width)
 })
 
 
