@@ -32,6 +32,7 @@ h2 {
 .h2__footer {
     color: $c-white;
     font-size: 100px;
+    
 
     @include respond( tab-port ) {
         font-size: 50px;
@@ -60,6 +61,7 @@ h2 {
     &__1 {
         color: $c-white;
         text-transform: uppercase;
+        word-wrap: break-word;
     }
     &__2 {
         color: $c-primary;
@@ -100,7 +102,6 @@ h2 {
 
 //Paragraphs
 .p__1 { 
-    //font-size: 30px; 
     text-transform: uppercase;
     @include respond( phone-small ) {
         font-size: 16px;
@@ -121,6 +122,7 @@ h2 {
 
 .p__2 {
     color: $c-white;
+    word-wrap: break-word;
 }
 
 

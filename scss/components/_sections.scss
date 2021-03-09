@@ -1,5 +1,4 @@
 .main {
-    margin-bottom: 100vh;
     overflow-x: hidden;
     position: relative;
     z-index: 200;
@@ -50,30 +49,8 @@
 
 
 footer {
-    background-color: black;
-    bottom: 0;
-    display: block;
-    //min-height: auto;
-    //max-height: 100vh;
-    left: 0;
-    position: fixed;
-    width: 100%;
-    z-index: 100;
+    background-color: rgb(29, 6, 6);
     padding-top: 8%;
     padding-bottom: 2%;
-
-    & img {
-        height: 70px;
-        width: auto;
-        position: absolute;
-        top: 15px;
-        left: 0;  
-
-        @include respond( tab-port ) {
-            height: 50px;
-        }
-        @include respond( phone ) {
-            height: 40px;
-        }
-    }
+ 
 }
